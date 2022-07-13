@@ -4,8 +4,8 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 192.168.163.131:8848
-        namespace: 90a6e497-bfb6-4784-8dd6-244c08b0708c
+        server-addr: 127.0.0.1:8848
+        namespace:
         file-extension: yaml
         extension-configs:
           - data-id: oss.yaml

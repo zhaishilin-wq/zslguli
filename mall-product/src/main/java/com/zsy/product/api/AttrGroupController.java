@@ -93,7 +93,7 @@ public class AttrGroupController {
     }
 
     /**
-     * 信息
+     * 信息 找到category的完整路径
      */
     @RequestMapping("/info/{attrGroupId}")
     //@RequiresPermissions("product:attrgroup:info")

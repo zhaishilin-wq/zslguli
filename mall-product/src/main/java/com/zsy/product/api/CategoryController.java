@@ -47,7 +47,7 @@ public class CategoryController {
      * 保存
      */
     @RequestMapping("/save")
-    //@RequiresPermissions("product:category:save")
+    //@RequiresPermissions("product:category:save") 
     public R save(@RequestBody CategoryEntity category) {
         categoryService.save(category);
         return R.ok();

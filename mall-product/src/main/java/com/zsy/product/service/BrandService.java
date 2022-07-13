@@ -3,6 +3,8 @@ package com.zsy.product.service;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zsy.common.utils.PageUtils;
 import com.zsy.product.entity.BrandEntity;
+import org.apache.commons.lang3.builder.ToStringExclude;
+import org.testng.annotations.Test;
 
 import java.util.Map;
 
@@ -19,5 +21,8 @@ public interface BrandService extends IService<BrandEntity> {
 
     void updateDetail(BrandEntity brand);
 
+
+
+    
 }
 

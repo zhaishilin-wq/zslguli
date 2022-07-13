@@ -4,6 +4,24 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: 192.168.163.131:8848
+        server-addr: 127.0.0.1:8848
         file-extension: yaml
-        namespace: 957046ce-49ac-42b7-8eec-74ef6900998e
+        namespace: 1886846b-6687-4a82-a2e8-0d9a0b810fa5
+        extension-configs[0].data-id: datasoure.yaml
+        extension-configs[0].group: dev
+        extension-configs[0].refresh: true
+
+        extension-configs[1].data-id: mybatis.yaml
+        extension-configs[1].group: dev
+        extension-configs[1].refresh: true
+
+        extension-configs[2].data-id: other.yaml
+        extension-configs[2].group: dev
+        extension-configs[2].refresh: true
+
+        extension-configs[3].data-id: coupon.yaml
+        extension-configs[3].group: dev
+        extension-configs[3].refresh: true
+
+
+

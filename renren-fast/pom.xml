@@ -101,6 +101,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>${mysql.version}</version>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.alibaba.nacos</groupId>-->
+<!--			<artifactId>nacos-client</artifactId>-->
+<!--			<version>1.2.0</version>-->
+<!--		</dependency>-->
 		 <!--oracle驱动-->
 		<dependency>
 			<groupId>com.oracle</groupId>
